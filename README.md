@@ -4,7 +4,7 @@ Below we want to calculate the sum of the first 6 natural numbers using recursio
 
 ```javascript
 function sum(n){
-    if(n==1) return 1;
+    if(n==1) return n;
     let s = n + sum(n-1)
     return s
 }
